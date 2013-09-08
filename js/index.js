@@ -107,7 +107,7 @@ var app = {
     },
     
     dberrorCB: function ( error ) {
-        //alert("Error processing SQL: " + error.message);
+        alert("Error processing SQL: " + error.message);
     },
     
     getCodeHistory: function () {
